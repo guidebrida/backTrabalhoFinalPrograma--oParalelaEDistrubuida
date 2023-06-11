@@ -1,4 +1,4 @@
-const proto = "./proto/pacientes.proto"
+const proto = "./proto/filmes.proto"
 const grpc = require('grpc')
 const protoLoader = require('@grpc/proto-loader')
 const {v4:uuidv4} = require('uuid')
