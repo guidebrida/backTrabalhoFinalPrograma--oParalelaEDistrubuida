@@ -1,4 +1,4 @@
-syntax = "proto";
+syntax = "proto3";
 
 service FilmeService {
     rpc GetAll (Empty) returns (ListaFilme) {}
